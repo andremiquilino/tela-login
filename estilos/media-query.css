@@ -30,6 +30,12 @@
         float: right;
         padding: 10px;
     }
+    div.email{
+        width: 99%;
+    }
+    div.senha{
+        width: 99%;
+    }
 }
 @media screen and (min-width: 1026px) {
     body {
@@ -62,4 +68,10 @@
         top: 112px;
         left: 45px;
     }
+    div.email{
+        width: 100%;
+    }
+    div.senha{
+        width: 100%;
+}
 }

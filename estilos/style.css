@@ -43,3 +43,27 @@ div.imagem{
 div.login{
     display: block;
 }
+a{
+    display: block;
+    margin: 5px;
+    padding: 6px;
+    text-decoration: none;
+    background-color: aqua;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgba(16, 153, 217, 0.726);
+}
+a:active{
+    background-color: blue;
+}
+div.senha{
+    background-color: rgba(26, 9, 208, 0.758);
+    margin: 5px;
+    border-radius: 3px;
+}
+div.email{
+    background-color: rgba(35, 10, 198, 0.758);
+    border-radius: 3px;
+    margin: 5px;
+}
