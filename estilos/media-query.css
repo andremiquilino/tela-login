@@ -25,6 +25,11 @@
         padding: 10px;
         transition-timing-function: ease;
     }
+    form{
+        display: block;
+        float: right;
+        padding: 10px;
+    }
 }
 @media screen and (min-width: 1026px) {
     body {
@@ -49,5 +54,12 @@
         float: left;
         margin: 10px;
         padding: 10px;
+    }
+    form{
+        position: absolute;
+        display: block;
+        float: left;
+        top: 112px;
+        left: 45px;
     }
 }
