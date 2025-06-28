@@ -20,6 +20,8 @@ main{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow: hidden;
 }
 span{
     background-color: blueviolet;
@@ -34,4 +36,10 @@ input{
 img{
     height:146px;
     width: 280px;
+}
+div.imagem{
+    display: block;
+}
+div.login{
+    display: block;
 }
