@@ -36,6 +36,9 @@
     div.senha{
         width: 99%;
     }
+    input.senha:focus-within{
+    background-color: aliceblue;
+}
 }
 @media screen and (min-width: 1026px) {
     body {
@@ -73,5 +76,12 @@
     }
     div.senha{
         width: 100%;
+}
+input{
+    background-color: aqua;
+    margin: 10px;
+}
+input.senha:focus-within{
+    background-color: aliceblue;
 }
 }

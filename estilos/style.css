@@ -67,3 +67,10 @@ div.email{
     border-radius: 3px;
     margin: 5px;
 }
+input.senha{
+    background-color: rgb(141, 230, 200);
+    border-radius: 5px;
+}
+input.senha:focus-within{
+    background-color: aliceblue;
+}
